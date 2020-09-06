@@ -30,7 +30,12 @@
 		"url": "https://github.com/elijahjcobb/***/issues"
 	},
 	"homepage": "https://github.com/elijahjcobb/***#readme",
-	"dependencies": {},
+	"dependencies": {
+		"@element-ts/hydrogen": "latest",
+		"@element-ts/silicon": "latest",
+		"@element-ts/oxygen": "latest",
+		"@element-ts/krypton": "latest"
+	},
 	"devDependencies": {
 		"@types/node": "latest",
 		"typescript": "latest",
