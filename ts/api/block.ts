@@ -5,7 +5,11 @@
  * github.com/elijahjcobb
  */
 
-import {HEndpointGroup} from "@element-ts/hydrogen";
+import {HEndpointBuilder, HEndpointGroup} from "@element-ts/hydrogen";
 
 export const endpointBlock = new HEndpointGroup();
 
+endpointBlock.add(
+	HEndpointBuilder
+		.post
+);
